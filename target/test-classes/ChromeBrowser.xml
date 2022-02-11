@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="suite1">
+
+ 
+   <test name="Test1">
+      <parameter name="browser" value="chrome" />
+      <classes>
+       <class name="excuterScript.CreateAccount"/>
+     </classes>
+     
+</test>
+
+  <test name="Test2">
+      <parameter name="browser" value="chrome" />
+      <classes>
+       <class name="excuterScript.ContactExcution"/>
+     </classes>
+     
+</test>
+
+ <test name="Test3">
+      <parameter name="browser" value="chrome" />
+      <classes>
+       <class name="excuterScript.OpportunityExcution"/>
+     </classes>
+     
+</test>
+
+<test name="Test4">
+      <parameter name="browser" value="chrome" />
+      <classes>
+       <class name="excuterScript.TaskExcution"/>
+     </classes>
+     
+</test>
+
+  <test name="Test5">
+      <parameter name="browser" value="chrome" />
+      <classes>
+       <class name="excuterScript.NotesExcution"/>
+     </classes>
+     
+</test> 
+
+</suite> <!-- suite1 -->
+             

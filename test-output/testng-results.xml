@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="120167" started-at="2022-02-11T06:51:23Z" finished-at="2022-02-11T06:53:24Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="24812" started-at="2022-02-11T06:51:23Z" finished-at="2022-02-11T06:51:48Z">
+      <class name="excuterScript.CreateAccount">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:excuterScript.CreateAccount@1bce4f0a]" name="openBrowser" is-config="true" duration-ms="4598" started-at="2022-02-11T06:51:23Z" finished-at="2022-02-11T06:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:excuterScript.CreateAccount@1bce4f0a]" name="login" duration-ms="20199" started-at="2022-02-11T06:51:28Z" finished-at="2022-02-11T06:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- excuterScript.CreateAccount -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="19308" started-at="2022-02-11T06:51:48Z" finished-at="2022-02-11T06:52:08Z">
+      <class name="excuterScript.ContactExcution">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:excuterScript.ContactExcution@4f7d0008]" name="openBrowser" is-config="true" duration-ms="4341" started-at="2022-02-11T06:51:48Z" finished-at="2022-02-11T06:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="contact()[pri:0, instance:excuterScript.ContactExcution@4f7d0008]" name="contact" duration-ms="14966" started-at="2022-02-11T06:51:53Z" finished-at="2022-02-11T06:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- excuterScript.ContactExcution -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="29011" started-at="2022-02-11T06:52:08Z" finished-at="2022-02-11T06:52:37Z">
+      <class name="excuterScript.OpportunityExcution">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:excuterScript.OpportunityExcution@2f686d1f]" name="openBrowser" is-config="true" duration-ms="4094" started-at="2022-02-11T06:52:08Z" finished-at="2022-02-11T06:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="MainOpportunity()[pri:0, instance:excuterScript.OpportunityExcution@2f686d1f]" name="MainOpportunity" duration-ms="24916" started-at="2022-02-11T06:52:12Z" finished-at="2022-02-11T06:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainOpportunity -->
+      </class> <!-- excuterScript.OpportunityExcution -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="23548" started-at="2022-02-11T06:52:37Z" finished-at="2022-02-11T06:53:00Z">
+      <class name="excuterScript.TaskExcution">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:excuterScript.TaskExcution@5f2108b5]" name="openBrowser" is-config="true" duration-ms="4070" started-at="2022-02-11T06:52:37Z" finished-at="2022-02-11T06:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="task()[pri:0, instance:excuterScript.TaskExcution@5f2108b5]" name="task" duration-ms="19476" started-at="2022-02-11T06:52:41Z" finished-at="2022-02-11T06:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- task -->
+      </class> <!-- excuterScript.TaskExcution -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="23452" started-at="2022-02-11T06:53:00Z" finished-at="2022-02-11T06:53:24Z">
+      <class name="excuterScript.NotesExcution">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:excuterScript.NotesExcution@59494225]" name="openBrowser" is-config="true" duration-ms="3862" started-at="2022-02-11T06:53:00Z" finished-at="2022-02-11T06:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="note()[pri:0, instance:excuterScript.NotesExcution@59494225]" name="note" duration-ms="19589" started-at="2022-02-11T06:53:04Z" finished-at="2022-02-11T06:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- note -->
+        <test-method status="PASS" signature="test()[pri:0, instance:excuterScript.NotesExcution@59494225]" name="test" is-config="true" duration-ms="4108" started-at="2022-02-11T06:53:24Z" finished-at="2022-02-11T06:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- excuterScript.NotesExcution -->
+    </test> <!-- Test5 -->
+  </suite> <!-- suite1 -->
+</testng-results>
