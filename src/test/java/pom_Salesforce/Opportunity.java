@@ -26,7 +26,7 @@ public class Opportunity {
 	 @FindBy(xpath = "//input[@name='CloseDate']")
 	  WebElement closedate;
 	 
-	 @FindBy(xpath = "//label[text()='Stage']/..//input")
+	 @FindBy(xpath = "(//button[@data-value='--None--'])[2]")
 	  WebElement stage;
 	 
 	 @FindBy(xpath = "//span[@title='Qualification']/../..")

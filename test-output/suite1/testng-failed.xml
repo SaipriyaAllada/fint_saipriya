@@ -13,28 +13,4 @@
       </class> <!-- excuterScript.CreateAccount -->
     </classes>
   </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test2(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="excuterScript.ContactExcution">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="test"/>
-          <include name="contact"/>
-        </methods>
-      </class> <!-- excuterScript.ContactExcution -->
-    </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" name="Test3(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="excuterScript.OpportunityExcution">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="test"/>
-          <include name="MainOpportunity"/>
-        </methods>
-      </class> <!-- excuterScript.OpportunityExcution -->
-    </classes>
-  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [suite1] -->

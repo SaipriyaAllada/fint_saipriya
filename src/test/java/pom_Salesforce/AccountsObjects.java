@@ -2,9 +2,11 @@ package pom_Salesforce;
 
 
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,10 +36,12 @@ public class AccountsObjects {
 	@FindBy(xpath="(//span[text()='Save'])[2]")
 	WebElement save;
 	WebDriverWait wait; 
+	WebDriver wdriver;
 	
 	public AccountsObjects(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		wait = new 	WebDriverWait(driver,15);
+		wdriver=driver;
 		
 	}
 	
@@ -51,8 +55,9 @@ public class AccountsObjects {
 		waitForElementToVisibleToVisit(AccountName);
 		AccountName.sendKeys(Keys.BACK_SPACE);
 		waitForElementToClickable(Sam);
-		Sam.click();
-		//waitForElementToClickable(save);
+		((JavascriptExecutor)wdriver).executeScript("arguments[0].click();", Sam);
+		//Sam.click();
+		waitForElementToClickable(save);
 		save.click();
 	    
 		

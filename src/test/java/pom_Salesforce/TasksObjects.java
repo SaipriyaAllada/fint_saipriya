@@ -1,6 +1,7 @@
 package pom_Salesforce;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,22 +48,16 @@ public WebDriver wdriver;
 
 		 taskdropDown.click();
 		 waitForElementtoClickable(newTask);
-
 		 ((JavascriptExecutor) wdriver).executeScript("arguments[0].click();", newTask);
 		 
+		  waitForelemtnToVisitToVisible(subject);
+		  subject.sendKeys("Send Letter");
 		 
-		 //newTask.click();
-		 waitForelemtnToVisitToVisible(subject);
-		 subject.sendKeys("Send Letter");
-		 duedate.sendKeys("2/15/2022");
-		 waitForElementtoClickable(save);
-		 
-		 save.click();
-		 
-		 
-		 
-		 
-	 }
+		  waitForelemtnToVisitToVisible(duedate);
+		  duedate.sendKeys("2/15/2022");
+		  waitForElementtoClickable(save);
+		  save.click();
+	}
 	
 	
 	 public void waitForElementtoClickable(WebElement element)

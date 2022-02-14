@@ -17,7 +17,7 @@ public class ContactsObjects {
     @FindBy(xpath = "//div[@title='New']")
     WebElement New;
     
-    @FindBy(xpath = "//input[@placeholder='None']")
+    @FindBy(xpath = "//button[@name='salutation']")
     WebElement None; 
     
     @FindBy(xpath = "//*[@data-value='Ms.']")
