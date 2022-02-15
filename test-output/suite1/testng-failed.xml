@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
-  <test thread-count="5" name="Test1(failed)">
+  <test thread-count="5" name="Test2(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="excuterScript.CreateAccount">
+      <class name="excuterScript.ContactExcution">
         <methods>
           <include name="openBrowser"/>
           <include name="test"/>
-          <include name="login"/>
+          <include name="contact"/>
         </methods>
-      </class> <!-- excuterScript.CreateAccount -->
+      </class> <!-- excuterScript.ContactExcution -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [suite1] -->

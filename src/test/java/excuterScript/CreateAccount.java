@@ -15,6 +15,7 @@ public void login() throws InterruptedException, IOException {
 	LoginPageObjects log =new LoginPageObjects(driver);
 	AccountsObjects acc = new AccountsObjects(driver);
 	
+
 	log.LoginAccount();
 	acc.Accountfun();
 

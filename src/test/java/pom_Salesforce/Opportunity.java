@@ -51,7 +51,7 @@ public class Opportunity {
 		 waitForelemtnToVisitToVisible(Name);
 		 Name.sendKeys("sales");
 		 waitForelemtnToVisitToVisible(SearchAccounts);
-		 SearchAccounts.sendKeys("Samsung Corp");
+		 SearchAccounts.sendKeys("Samsung Cor");
 		 waitForElementtoClickable(dropdownSamsung);
 		 dropdownSamsung.click();
 		 waitForelemtnToVisitToVisible(closedate);

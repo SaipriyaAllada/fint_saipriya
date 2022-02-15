@@ -61,7 +61,7 @@ public class ContactsObjects {
     	 waitForelemtnToVisitToVisible(Lastname);
     	 Lastname.sendKeys("Allada");
     	 waitForelemtnToVisitToVisible(SearchAccounts);
-    	 SearchAccounts.sendKeys("Samsung Corp");
+    	 SearchAccounts.sendKeys("Samsung Cor");
     	 waitForElementtoClickable(dropdownSamsung); 
     	 dropdownSamsung.click();
     	 waitForElementtoClickable(Save);

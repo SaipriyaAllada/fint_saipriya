@@ -12,7 +12,7 @@
      
 </test> 
 
-     <test name="Test2">
+  <test name="Test2">
       <parameter name="browser" value="chrome" />
       <classes>
        <class name="excuterScript.ContactExcution"/>
@@ -29,7 +29,7 @@
      
 </test>
 
-      <test name="Test4">
+     <test name="Test4">
       <parameter name="browser" value="chrome" />
       <classes>
        <class name="excuterScript.TaskExcution"/>

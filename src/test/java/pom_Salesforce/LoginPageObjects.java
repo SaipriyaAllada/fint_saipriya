@@ -13,6 +13,9 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class LoginPageObjects  {
+	
+
+	
 	@FindBy(id="username")
     WebElement Username;
 	
@@ -30,8 +33,8 @@ public class LoginPageObjects  {
 		 FileInputStream File = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\prop.properties");
 		 p2.load(File);
 	}
-	
-	
+
+
 	 
 	public void LoginAccount() {
 		Username.sendKeys(p2.getProperty("username"));
