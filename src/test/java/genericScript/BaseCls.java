@@ -51,6 +51,7 @@ public class BaseCls {
 	    
 	      FileInputStream propfile = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\prop.properties");
 		
+	      
 			p1.load(propfile);
 			driver.get(p1.getProperty("url"));
 
